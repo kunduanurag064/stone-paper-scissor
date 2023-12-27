@@ -1,0 +1,80 @@
+*/{
+    margin: 0;
+}
+h1{
+    text-align:center;
+}
+
+.btnBox{
+    margin-top:100px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#btn1,#btn2,#btn3{
+    height:auto;
+    width: auto;
+    border:0px ;
+    border-color: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:2rem;
+    padding:30px;
+    gap:inherit;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#btn1:hover,
+#btn2:hover,
+#btn3:hover{
+    color:black;
+}
+
+#btn1{
+    background-color:rgb(176, 243, 162);
+}
+#btn2{
+    background-color:rgb(198, 230, 240);
+}
+#btn3{
+    background-color:rgb(238, 209, 233);
+}
+
+.score-card{
+    margin-top:50px;
+    display: flex;
+    gap: 70px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+.score-card1{
+    margin-top:20px;
+    display: flex;
+    gap: 50px;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+button{
+
+    margin-top:50px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+    background-color: black;
+    color:white;
+
+}
+#reset-btn:hover{
+    color:red;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    background-color: rgb(232, 249, 126);
+}
